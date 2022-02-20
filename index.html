@@ -6,70 +6,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
 </head>
-<body class="bg-dark">
-    
-    <div class="container ">
-        <div class="row ">
-           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-            <div class="card  border-light text-center" >
-                <img class="card-img-top" src="https://i.ytimg.com/vi/rOfMTo5VezQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1V-JgrdJAHYNYzglVdIjJ2RGh_Q" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title"> Album  Nevermind</h5>
-                  <h5 class="card-title">Nirvana</h5>
-                  <h5 class="card-title">Genre - Rock</h3>
-                  <p class="card-text">Duration - 42:36</p>
-                  <a href="https://www.youtube.com/watch?v=rOfMTo5VezQ" class="btn btn-dark">Listen</a>
-                </div>
-            </div>
-           </div>
-           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-            <div class="card  border-light text-center" >
-                <img class="card-img-top" src="https://i.ytimg.com/vi/rOfMTo5VezQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1V-JgrdJAHYNYzglVdIjJ2RGh_Q" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title"> Album  Nevermind</h5>
-                  <h5 class="card-title">Nirvana</h5>
-                  <h5 class="card-title">Genre - Rock</h3>
-                  <p class="card-text">Duration - 42:36</p>
-                  <a href="https://www.youtube.com/watch?v=rOfMTo5VezQ" class="btn btn-dark">Listen</a>
-                </div>
-            </div>
-           </div>
-           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-            <div class="card  border-light text-center" >
-                <img class="card-img-top" src="https://i.ytimg.com/vi/rOfMTo5VezQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1V-JgrdJAHYNYzglVdIjJ2RGh_Q" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title"> Album  Nevermind</h5>
-                  <h5 class="card-title">Nirvana</h5>
-                  <h5 class="card-title">Genre - Rock</h3>
-                  <p class="card-text">Duration - 42:36</p>
-                  <a href="https://www.youtube.com/watch?v=rOfMTo5VezQ" class="btn btn-dark">Listen</a>
-                </div>
-            </div>
-           </div>
-           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-            <div class="card  border-light text-center" >
-                <img class="card-img-top" src="https://i.ytimg.com/vi/rOfMTo5VezQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1V-JgrdJAHYNYzglVdIjJ2RGh_Q" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title"> Album  Nevermind</h5>
-                  <h5 class="card-title">Nirvana</h5>
-                  <h5 class="card-title">Genre - Rock</h3>
-                  <p class="card-text">Duration - 42:36</p>
-                  <a href="https://www.youtube.com/watch?v=rOfMTo5VezQ" class="btn btn-dark">Listen</a>
-                </div>
-            </div>
-           </div>
+<body class="bodyColor">
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand text-light" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
            
-           
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#favouriteAlbums">Favourite Albums</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#bestCover">Best Cover</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#wallOfShame">Wall of Shame</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#tapestry">Tapestry</a>
+            </li>
+          </ul>
           
-            
+        </div>
+      </nav>
+    <div class="container favs mb-10 tapestry">
+        <div class="row">
+            <h2 id="favouriteAlbums" class="col-12 mb-9 headings text-center">Favourite Albums</h2>
+        </div>
+
+    </div>
+    
+    <div  class="container ">
+        <div class="row ">
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Nevermind</h5>
+                  <h5 class="card-title text-light">Nirvana</h5>
+                  <h5 class="card-title text-light">Genre - Rock</h3>
+                  <p class="card-text text-light">2 hours 28 minutes</p>
+                </div>
+            </div>
+           </div>
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/d/df/RedHotChiliPeppersCalifornication.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Califirnication</h5>
+                  <h5 class="card-title text-light">Red Hot Chili Peppers</h5>
+                  <h5 class="card-title text-light">Genre - Rock</h3>
+                  <p class="card-text text-light">56 minutes</p>
+                </div>
+            </div>
+           </div>
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://i.scdn.co/image/ab67616d0000b2734d10516d3dd49598051f07d7" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Jerusalem</h5>
+                  <h5 class="card-title text-light">Jordi Savall</h5>
+                  <h5 class="card-title text-light">Traditional</h3>
+                  <p class="card-text text-light">3 hour 33 minutes</p>
+                </div>
+            </div>
+           </div>
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://img.discogs.com/a8u_jfjKqRscgSrXM7UObXbZ8ac=/fit-in/600x601/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-10852829-1505389970-4956.jpeg.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Ongoku Masters</h5>
+                  <h5 class="card-title text-light">Various Artists</h5>
+                  <h5 class="card-title text-light">Traditional</h3>
+                  <p class="card-text text-light">1 hour 13 minutes</p>
+                </div>
+            </div>
+           </div>
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://m.media-amazon.com/images/I/81jYtPELt6L._AC_SL1500_.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">The Princess</h5>
+                  <h5 class="card-title text-light">Parov Stelar</h5>
+                  <h5 class="card-title text-light">Downtempo</h3>
+                  <p class="card-text text-light">41 minutes</p>
+                </div>
+            </div>
+           </div>
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://i.scdn.co/image/ab67616d0000b273606427fbb992e04becc61d20" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Yamma</h5>
+                  <h5 class="card-title text-light">Yamma</h5>
+                  <h5 class="card-title text-light">Jewish</h3>
+                  <p class="card-text text-light">43 minutes</p>
+                </div>
+            </div>
+           </div>
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://i.scdn.co/image/ab67616d0000b273af98df08295fd5e0a87737a5" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Trip to Marakesh</h5>
+                  <h5 class="card-title text-light">Buddha-bar</h5>
+                  <h5 class="card-title text-light">Lounge</h3>
+                  <p class="card-text text-light">2 hours 19 minutes</p>
+                </div>
+            </div>
+           </div>
+           <div class=" col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="card  cardBg  text-center" >
+                <img class="card-img-top" src="https://i.scdn.co/image/ab67616d0000b27379b53581a260e101f94de25d" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Viva Diaspora</h5>
+                  <h5 class="card-title text-light">Shantel</h5>
+                  <h5 class="card-title text-light">Trip hop</h3>
+                  <p class="card-text text-light">59 minutes</p>
+                </div>
+            </div>
+           </div>
            
         </div>
-        
+        <div class="container favs mb-10 tapestry">
+            <div class="row">
+                <h2 id="bestCover" class="col-12 mb-9 headings text-center">Best Cover</h2>
+            </div>
+    
+        </div>
+  
+    <div  class="container article">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4 ">
+                <img src="https://i.scdn.co/image/ab67616d0000b27379b53581a260e101f94de25d" class="col-md-12 mt-4 mb-4" alt="Responsive image">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 mt-4 mb-4">
+                <div class="d-flex flex-column justify-content-center h-100">
+                    <h2 class="text-light">Shantel - Viva Diaspora</h2>
+                    <div class="text-light">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper finibus nibh non cursus. Nam sed risus at dolor congue ultricies et non arcu. Proin fermentum sagittis diam id pulvinar. In hac habitasse platea dictumst. Maecenas placerat odio et rhoncus interdum. Sed malesuada velit ante, nec congue elit vulputate in. Sed pharetra tristique odio, sit amet vulputate purus aliquam in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vel est id augue maximus porttitor ac consectetur ex. Maecenas at fringilla dolor, a rutrum diam. Mauris tempor sagittis nulla a ornare. In non nisl ullamcorper, tincidunt nibh vitae, faucibus leo.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+   
+    <div id="wallOfShame" class=" container favs mb-10">
+        <div class="row">
+            <h2 class="col-12 mt-4 headings text-center">Wall of shame</h2>
+        </div>
+
+    </div>
+   <div class="container">
+       <div class="row">
+           <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ">
+            <div class="card  cardWorst  text-center" >
+                <img class="card-img-top" src="https://i.scdn.co/image/68c0f80c227f69bba0db6a4bd00b8eabb31dad02" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-dark"> Sticks & Stones</h5>
+                  <h5 class="card-title text-dark">Cher Lloyd</h5>
+                  <h5 class="card-title text-dark">Rock</h3>
+                </div>
+            </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card  cardWorst  text-center" >
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/4/4d/WeBuiltThisCity.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-dark"> We build this city</h5>
+                  <h5 class="card-title text-dark">Starship</h5>
+                  <h5 class="card-title text-dark">Rock</h3>
+                </div>
+            </div>
+           </div>
+           <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="card  cardWorst  text-center" >
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/9/9e/It%27sEverydayBro.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-dark">Its everyday bro</h5>
+                  <h5 class="card-title text-dark">Jake Paul</h5>
+                  <h5 class="card-title text-dark">Hip-Hop</h3>
+                </div>
+            </div>
+           </div>
+       </div>
+   </div>
+   <div class="jumbotron jumbotron-fluid cardBg tapestry">
+    <div  id="tapestry" class="container ">
+      <h1 class="display-4 text-center text-light">Tapestry</h1>
+    </div>
+   </div>
+   <div class="container mb-4">
+       <div class="row">
+               <img src="https://cdn.shopify.com/s/files/1/0130/8714/6043/products/VariousArtists-Buddha-BarElements.jpg?v=1607622073" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/It%27sEverydayBro.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/WeBuiltThisCity.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.scdn.co/image/68c0f80c227f69bba0db6a4bd00b8eabb31dad02" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.scdn.co/image/ab67616d0000b27379b53581a260e101f94de25d" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.scdn.co/image/ab67616d0000b273af98df08295fd5e0a87737a5" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.scdn.co/image/ab67616d0000b273606427fbb992e04becc61d20" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://m.media-amazon.com/images/I/81jYtPELt6L._AC_SL1500_.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://img.discogs.com/a8u_jfjKqRscgSrXM7UObXbZ8ac=/fit-in/600x601/filters:strip_icc():format(webp):mode_rgb():quality(90)/discogs-images/R-10852829-1505389970-4956.jpeg.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://upload.wikimedia.org/wikipedia/en/d/df/RedHotChiliPeppersCalifornication.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://m.media-amazon.com/images/I/7180kSiluwL._AC_SX522_.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.pinimg.com/originals/4c/1c/33/4c1c3340ff42adcffdb55c868369d8e4.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.pinimg.com/564x/f9/fc/43/f9fc4361d92780462f5b4cb3a1878cdf.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://www.rhino.com/sites/g/files/g2000012691/files/styles/article_image/public/2019-04/A10302B0000440548J.jpg?itok=xY6mjH_S" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://pictures.depop.com/b0/12576746/544853021_wnsma8jokE/P0.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.pinimg.com/originals/29/f9/3b/29f93b41e59a84d1353ac633c75d6f61.jpg" class="img-fluid squared col-4 col-md-3 p-0">
+               <img src="https://i.scdn.co/image/ab67616d0000b273734b36a0655aae40d78d70f4" class="img-fluid squared col-4 col-md-3 p-0">
+               
+               
+               
+             
+              
           
+
+       </div>
+
+   </div>
+    
+    
      
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 

@@ -1,0 +1,44 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background: #ea2ea5; 
+    border-radius: 10px;
+    
+  }
+  
+.cardBg {
+    background: rgb(17,197,226);
+    background: linear-gradient(25deg, rgba(17,197,226,1) 0%, rgba(24,254,128,1) 100%);
+    border-color: #1dd05e;
+}
+.buttonCustom {
+    background-color: #ea2ea5;
+}
+.bodyColor {
+    background-color: whitesmoke;
+}
+.navbar {
+    background: rgb(17,197,226);
+    background: linear-gradient(25deg, rgba(17,197,226,1) 0%, rgba(24,254,128,1) 100%);
+}
+.article {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: rgb(17,197,226);
+    background: linear-gradient(25deg, rgba(17,197,226,1) 0%, rgba(24,254,128,1) 100%);
+}
+.cardWorst {
+    margin-top: 30px;
+    background: rgb(187,112,198);
+    background: linear-gradient(194deg, rgba(187,112,198,1) 0%, rgba(52,208,208,1) 100%); 
+    border: none;
+}
+.headings {
+    font-size: 50px;
+}
+.tapestry {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
